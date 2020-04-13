@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+body{
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+}
+.container{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo{
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px solid #904ffb;
+}
+.logo a{}
+.logo a img{
+	width: 70px;
+}
+nav{
+	text-align: center;
+	padding: 10px 0;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	font-size: 28px;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+nav ul li a:hover{
+	
+background: #3431fc;
+	
+color: #fff;
+}
+.banner-section{}
+.banner-section img{
+	width: 100%;
+}
+
+.about-section{}
+.about-section h1{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.about-section span{
+    width: 112px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background: #47a7fd;
+}
+.about-section p{
+    font-size: 28px;
+    color: #224d73;
+    text-align: justify;
+    line-height: 1.6;
+}
+.blog-section{}
+.post{
+    width: 33.33%;
+    float: left;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+article{}
+article img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+article h2{
+    margin: 0;
+    color: #3436fc;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+article p{
+    font-size: 20px;
+}
+.contact-section{}
+.contact-form{
+}
+form{
+}
+.inputtext {
+    width: 55%;
+    height: 65px;
+    border: 3px solid #3a29f6;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    padding: 0 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+.inputmessage {
+    width: 55%;
+    height: 65px;
+    border: 3px solid #352ef6;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    padding: 0 10px;
+    float: left;
+}
+.submitbutton {
+    width: 160px;
+    height: 65px;
+    font-size: 28px;
+    font-family: arial;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    clear: both;
+    margin-top: 15px;
+    border: 1px solid #2d3bfc;
+}
